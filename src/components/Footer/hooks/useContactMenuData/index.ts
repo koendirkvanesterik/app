@@ -1,0 +1,1 @@
+export { useContactMenuData } from './useContactMenuData'

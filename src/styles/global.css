@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-warmGray-900;
+    @apply fill-current;
+    @apply leading-relaxed;
+    @apply text-base;
+    @apply text-emerald-400;
+  }
+
+  a {
+    @apply fill-current;
+    @apply no-underline;
+    @apply hover:underline;
+    @apply text-emerald-600;
+    @apply hover:text-emerald-400;
+  }
+}

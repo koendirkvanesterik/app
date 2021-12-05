@@ -1,0 +1,51 @@
+[
+  {
+    "name": "main",
+    "links": [
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Projects",
+        "href": "/projects/"
+      },
+      {
+        "label": "Posts",
+        "href": "/posts/"
+      }
+    ]
+  },
+  {
+    "name": "contact",
+    "label": "Contact",
+    "links": [
+      {
+        "label": "+31 6 57 74 42 08",
+        "href": "https://api.whatsapp.com/send?phone=31657744208"
+      },
+      {
+        "label": "info@koendirkvanesterik.com",
+        "href": "mailto:info@koendirkvanesterik.com"
+      }
+    ]
+  },
+  {
+    "name": "social",
+    "label": "Social",
+    "links": [
+      {
+        "label": "Dribbble",
+        "href": "https://dribbble.com/koendirkvanesterik"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/koendirkvanesterik"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/kdesterik/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "name": "koen-dirk-van-esterik",
+  "version": "0.1.0",
+  "description": "Koen Dirk van Esterik",
+  "license": "ISC",
+  "author": {
+    "name": "Koen Dirk van Esterik",
+    "url": "https://koendirkvanesterik.com"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^4.5.0",
+    "@koendirkvanesterik/label": "^0.0.6",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@react-three/fiber": "^7.0.21",
+    "classnames": "^2.3.1",
+    "gatsby": "^4.3.0",
+    "gatsby-plugin-catch-links": "^4.3.0",
+    "gatsby-plugin-image": "^2.3.0",
+    "gatsby-plugin-manifest": "^4.3.0",
+    "gatsby-plugin-mdx": "^3.3.0",
+    "gatsby-plugin-page-creator": "^4.3.0",
+    "gatsby-plugin-postcss": "^5.3.0",
+    "gatsby-plugin-react-helmet": "^5.3.0",
+    "gatsby-plugin-sharp": "^4.3.0",
+    "gatsby-plugin-sitemap": "^5.3.0",
+    "gatsby-plugin-typescript": "^4.3.0",
+    "gatsby-remark-images": "^6.3.0",
+    "gatsby-source-filesystem": "^4.3.0",
+    "gatsby-transformer-json": "^4.3.0",
+    "gatsby-transformer-sharp": "^4.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "rehype-external-links": "^1.0.0",
+    "tailwindcss": "^2.2.19",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/mdx-js__react": "^1.5.5",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-helmet": "^6.1.4",
+    "@types/tailwindcss": "^2.2.4",
+    "@types/three": "^0.134.0",
+    "autoprefixer": "^10.2.5",
+    "babel-preset-react-app": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prefer-arrow": "^1.2.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^5.0.1",
+    "husky": "^7.0.4",
+    "jest": "^27.4.3",
+    "lint-staged": "^12.1.2",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "ts-jest": "^27.1.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2"
+  },
+  "lint-staged": {
+    "**/*.ts{,x}": [
+      "eslint --cache --fix",
+      "stylelint --config .stylelintrc.json",
+      "prettier --write"
+    ],
+    "**/*.json": [
+      "prettier --write"
+    ],
+    "**/*.js": [
+      "prettier --write"
+    ],
+    "**/*.md": [
+      "prettier --write"
+    ],
+    "**/*.y{,a}ml": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --check '**/*.{ts,tsx,json,md,js,yml}'",
+    "format:fix": "prettier --write '**/*.{ts,tsx,json,md,js,yml}'",
+    "lint": "concurrently \"npm run lint:typescript\" \"npm run lint:styles\"",
+    "lint:styles": "stylelint --config '.stylelintrc.json' src/**/*.css",
+    "lint:typescript": "eslint --cache --ext .ts,.tsx src",
+    "serve": "gatsby clean && gatsby build && gatsby serve",
+    "start": "gatsby develop",
+    "test": "jest",
+    "test:coverage": "jest --coverage --collectCoverageFrom=src/**/*.{ts,tsx} --collectCoverageFrom=!src/**/{*.d.ts,index.ts,*.stories.tsx,styles.ts,types.ts}",
+    "test:types": "tsc -p . --noEmit"
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "prettier --write CHANGELOG.md"
+    }
+  }
+}
