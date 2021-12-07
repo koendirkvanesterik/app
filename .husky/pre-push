@@ -7,4 +7,4 @@ if [[ -n `git status -s`  ]]; then
 fi
 
 npm run --silent test:types
-npm test -- --changedSince=origin/master
+npm test -- --changedSince=origin/main
