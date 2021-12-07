@@ -90,18 +90,18 @@
     "typescript": "^4.5.2"
   },
   "lint-staged": {
-    "**/*.ts{,x}": [
-      "eslint --cache --fix",
-      "stylelint --config .stylelintrc.json",
+    "**/*.js": [
       "prettier --write"
     ],
     "**/*.json": [
       "prettier --write"
     ],
-    "**/*.js": [
+    "**/*.md{,x}": [
       "prettier --write"
     ],
-    "**/*.md": [
+    "**/*.ts{,x}": [
+      "eslint --cache --fix",
+      "stylelint --config .stylelintrc.json",
       "prettier --write"
     ],
     "**/*.y{,a}ml": [
