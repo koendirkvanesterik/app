@@ -20,12 +20,12 @@ export const App: React.FunctionComponent = ({ children }) => {
   return (
     <LabelContextProvider data={labelData}>
       <Header />
-      <Container>
-        <main className={classNames('flex', 'flex-col', 'min-h-screen')}>
-          <div className={classNames('flex-auto')}>{children}</div>
-          <Footer />
-        </main>
-      </Container>
+      <main className={classNames('flex', 'flex-col', 'min-h-screen')}>
+        <div className={classNames('flex-auto')}>
+          <Container>{children}</Container>
+        </div>
+        <Footer />
+      </main>
     </LabelContextProvider>
   )
 }

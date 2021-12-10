@@ -3,7 +3,7 @@ import React from 'react'
 import { Menu } from 'components/types'
 
 export const MenuList: React.FunctionComponent<Menu> = ({ label, links }) => (
-  <>
+  <div>
     {label && <h3>{label}</h3>}
     {links?.length > 0 ? (
       <ul>
@@ -16,5 +16,5 @@ export const MenuList: React.FunctionComponent<Menu> = ({ label, links }) => (
         ))}
       </ul>
     ) : null}
-  </>
+  </div>
 )
