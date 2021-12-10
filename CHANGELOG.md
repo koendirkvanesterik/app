@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/koendirkvanesterik/site/compare/v0.1.4...v0.1.5) (2021-12-10)
+
+### Bug Fixes
+
+- composite app for production purpose ([613425a](https://github.com/koendirkvanesterik/site/commit/613425a24804ac2e27ebddc8023f880512223065))
+- extend tailwind purge config with mdx ([b618bc0](https://github.com/koendirkvanesterik/site/commit/b618bc096571f7eb3a2e176bd8a4c2e2249cc8e5))
+- remove scope of stylint from tsx files ([405962d](https://github.com/koendirkvanesterik/site/commit/405962d0d8d52e6a3145c28fe117491d906356ea))
+
 ### [0.1.4](https://github.com/koendirkvanesterik/site/compare/v0.1.3...v0.1.4) (2021-12-10)
 
 ### [0.1.3](https://github.com/koendirkvanesterik/site/compare/v0.1.2...v0.1.3) (2021-12-10)
