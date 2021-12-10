@@ -2,9 +2,13 @@ name: test
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+    tags-ignore:
+      - '*'
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   test:
