@@ -1,11 +1,11 @@
-name: CD
+name: deploy
 
 on:
   push:
     tags: ['*']
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     strategy:
