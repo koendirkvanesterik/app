@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/koendirkvanesterik/site/compare/v0.1.2...v0.1.3) (2021-12-10)
+
+### Bug Fixes
+
+- add missing run command to deploy workflow ([a0dff57](https://github.com/koendirkvanesterik/site/commit/a0dff5710c4ef548338c6baa501eb49b80d20676))
+
 ### [0.1.2](https://github.com/koendirkvanesterik/site/compare/v0.1.1...v0.1.2) (2021-12-10)
 
 ### Bug Fixes
