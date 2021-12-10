@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/koendirkvanesterik/site/compare/v0.1.1...v0.1.2) (2021-12-10)
+
+### Bug Fixes
+
+- add ci command in deploy job ([ac47ccd](https://github.com/koendirkvanesterik/site/commit/ac47ccd2ef91e4794bf472565d22f633f5efdf1c))
+
 ### [0.1.1](https://github.com/koendirkvanesterik/site/compare/v0.1.0...v0.1.1) (2021-12-10)
 
 ## 0.1.0 (2021-12-10)
