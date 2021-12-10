@@ -3,7 +3,7 @@ import React from 'react'
 import { Label } from '@koendirkvanesterik/label'
 
 export const Status: React.FunctionComponent = () => (
-  <span>
+  <div>
     <Label id="status.unavailable" />
-  </span>
+  </div>
 )

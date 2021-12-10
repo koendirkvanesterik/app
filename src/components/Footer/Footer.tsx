@@ -1,6 +1,8 @@
 import classNames from 'classnames'
 import React from 'react'
 
+import { Container } from 'components/Container'
+
 import { Copyright } from './components/Copyright'
 import { MenuList } from './components/MenuList'
 import { Status } from './components/Status'
@@ -18,19 +20,15 @@ export const Footer: React.FunctionComponent = () => {
    */
   return (
     <footer className={classNames(['mb-5', 'mt-28'])}>
-      <div className={classNames(['grid', 'grid-cols-4', 'gap-4'])}>
-        <div>
+      <Container>
+        <div className={classNames(['grid', 'grid-cols-4', 'gap-4'])}>
           <Status />
-        </div>
-        <div />
-        <div>
+          <div />
           <MenuList {...contactMenuData} />
-        </div>
-        <div>
           <MenuList {...socialMenuData} />
         </div>
-      </div>
-      <Copyright />
+        <Copyright />
+      </Container>
     </footer>
   )
 }

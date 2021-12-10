@@ -4,6 +4,8 @@ import React from 'react'
 
 import { Label } from '@koendirkvanesterik/label'
 
+import { Container } from 'components/Container'
+
 import { MainMenu } from './components/MainMenu'
 
 export const Header: React.FunctionComponent = () => (
@@ -11,20 +13,20 @@ export const Header: React.FunctionComponent = () => (
     className={classNames([
       'bg-warmGray-900',
       'fixed',
-      'p-10',
+      'py-10',
       'w-full',
-      'z-10',
+      'z-20',
     ])}
   >
-    <nav role="navigation">
-      <div className={classNames(['grid', 'grid', 'grid-cols-2', 'gap-4'])}>
-        <div>
+    <Container>
+      <nav role="navigation">
+        <div className={classNames(['grid', 'grid', 'grid-cols-2', 'gap-4'])}>
           <Link className={classNames('text-emerald-400')} to="/">
             <Label id="title" />
           </Link>
+          <MainMenu />
         </div>
-        <MainMenu />
-      </div>
-    </nav>
+      </nav>
+    </Container>
   </header>
 )
