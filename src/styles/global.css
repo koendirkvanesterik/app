@@ -8,14 +8,14 @@
     @apply fill-current;
     @apply leading-relaxed;
     @apply text-base;
-    @apply text-emerald-400;
+    @apply text-emerald-600;
   }
 
   a {
     @apply fill-current;
     @apply no-underline;
     @apply hover:underline;
-    @apply text-emerald-600;
+    @apply text-emerald-400;
     @apply hover:text-emerald-400;
   }
 }
