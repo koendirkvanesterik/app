@@ -9,7 +9,6 @@ export const useContactMenuData = (): Menu => {
   const data = useStaticQuery(graphql`
     query {
       menusJson(name: { eq: "contact" }) {
-        label
         links {
           href
           label

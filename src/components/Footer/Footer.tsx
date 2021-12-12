@@ -21,7 +21,14 @@ export const Footer: React.FunctionComponent = () => {
   return (
     <footer className={classNames(['mb-5', 'mt-28'])}>
       <Container>
-        <div className={classNames(['grid', 'grid-cols-4', 'gap-4'])}>
+        <div
+          className={classNames([
+            'gap-4',
+            'grid',
+            'md:grid-cols-2',
+            'lg:grid-cols-2',
+          ])}
+        >
           <Status />
           <div />
           <MenuList {...contactMenuData} />

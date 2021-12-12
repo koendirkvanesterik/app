@@ -18,7 +18,6 @@
   },
   {
     "name": "contact",
-    "label": "Contact",
     "links": [
       {
         "label": "+31 6 57 74 42 08",
@@ -32,7 +31,6 @@
   },
   {
     "name": "social",
-    "label": "Social",
     "links": [
       {
         "label": "Dribbble",
