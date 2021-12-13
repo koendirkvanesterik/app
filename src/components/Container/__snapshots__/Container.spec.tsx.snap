@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render render as expected 1`] = `
+<div>
+  <div
+    class="max-w-screen-2xl mx-auto px-5 lg:px-10"
+  />
+</div>
+`;
