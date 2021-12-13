@@ -10,7 +10,7 @@ export const Cover: React.FunctionComponent = ({ children }) => (
       'border-warmGray-800',
       'h-96',
       'relative',
-      'rounded-lg'
+      'rounded-lg',
     ])}
   >
     <div className={classNames(['absolute', 'h-full', 'w-full'])}>
@@ -21,12 +21,11 @@ export const Cover: React.FunctionComponent = ({ children }) => (
         'flex',
         'h-full',
         'items-end',
-        'p-10',
         'relative',
         'z-10',
       ])}
     >
-      <div className={classNames(['w-4/12'])}>{children}</div>
+      {children}
     </div>
   </div>
 )

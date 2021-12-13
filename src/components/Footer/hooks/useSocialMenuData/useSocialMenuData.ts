@@ -9,7 +9,6 @@ export const useSocialMenuData = (): Menu => {
   const data = useStaticQuery(graphql`
     query {
       menusJson(name: { eq: "social" }) {
-        label
         links {
           href
           label

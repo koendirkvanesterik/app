@@ -19,13 +19,16 @@ export const Footer: React.FunctionComponent = () => {
    * Return footer component with nested components
    */
   return (
-    <footer className={classNames(['mb-5', 'mt-28'])}>
+    <footer className={classNames(['pb-5', 'pt-28'])}>
       <Container>
-        <div className={classNames(['grid', 'grid-cols-4', 'gap-4'])}>
-          <Status />
-          <div />
-          <MenuList {...contactMenuData} />
-          <MenuList {...socialMenuData} />
+        <div className={classNames(['gap-4', 'grid', 'md:grid-cols-2'])}>
+          <div className={classNames(['gap-4', 'grid', 'lg:grid-cols-2'])}>
+            <Status />
+          </div>
+          <div className={classNames(['gap-4', 'grid', 'lg:grid-cols-2'])}>
+            <MenuList {...contactMenuData} />
+            <MenuList {...socialMenuData} />
+          </div>
         </div>
         <Copyright />
       </Container>
