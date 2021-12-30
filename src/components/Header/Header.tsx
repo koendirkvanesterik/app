@@ -1,12 +1,10 @@
 import classNames from 'classnames'
-import { Link } from 'gatsby'
 import React from 'react'
 
-import { Label } from '@koendirkvanesterik/label'
-
 import { Container } from 'components/Container'
+import { Menu } from 'components/Menu'
 
-import { MainMenu } from './components/MainMenu'
+import { Title } from './components/Title'
 
 export const Header: React.FunctionComponent = () => (
   <header className={classNames(['fixed', 'pt-5', 'w-full', 'z-10'])}>
@@ -15,13 +13,9 @@ export const Header: React.FunctionComponent = () => (
         <div
           className={classNames(['grid', 'grid', 'gap-4', 'sm:grid-cols-2'])}
         >
-          <div className={classNames(['inline-block'])}>
-            <Link to="/">
-              <Label id="title" />
-            </Link>
-          </div>
+          <Title />
           <div className={classNames(['hidden', 'sm:block'])}>
-            <MainMenu />
+            <Menu />
           </div>
         </div>
       </nav>
