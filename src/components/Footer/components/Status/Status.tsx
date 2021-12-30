@@ -4,6 +4,6 @@ import { Label } from '@koendirkvanesterik/label'
 
 export const Status: React.FunctionComponent = () => (
   <div>
-    <Label id="status.unavailable" />
+    <Label id="footer.status.unavailable" />
   </div>
 )

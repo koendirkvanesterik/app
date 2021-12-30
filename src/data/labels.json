@@ -1,22 +1,22 @@
 [
   {
-    "name": "status.unavailable",
+    "name": "footer.status.unavailable",
     "value": "Currently unavailable due to an ongoing assignment. Please get in touch to explore possibilities."
   },
   {
-    "name": "status.available",
+    "name": "footer.status.available",
     "value": "Available for new projects. Drop a line to get in touch."
   },
   {
-    "name": "copyright",
+    "name": "footer.copyright",
     "value": "© {year} Koen Dirk van Esterik BV"
   },
   {
-    "name": "title",
+    "name": "header.title",
     "value": "Koen Dirk van Esterik"
   },
   {
-    "name": "version",
-    "value": "version {version}"
+    "name": "header.tagline",
+    "value": "Digital Surfer"
   }
 ]
