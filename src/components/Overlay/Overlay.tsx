@@ -59,6 +59,7 @@ export const Overlay: React.FunctionComponent = () => {
         'right-0',
         'sm:hidden',
         'top-1/2',
+        'z-20',
       ])}
     >
       <Hamburger onClick={onClickHandler} />
