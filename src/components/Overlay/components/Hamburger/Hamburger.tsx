@@ -11,7 +11,7 @@ export const Hamburger: React.FunctionComponent<Props> = ({ onClick }) => (
         'text-emerald-400',
         'hover:text-white',
       ])}
-      height="17px"
+      height="24px"
       viewBox="0 0 24 17"
       width="24px"
       xmlns="http://www.w3.org/2000/svg"
