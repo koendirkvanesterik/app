@@ -40,26 +40,26 @@ export const Overlay: React.FunctionComponent = () => {
       ])}
       onClick={onClickHandler}
     >
-      <div className={classNames(['flex', 'flex-col', 'min-h-screen'])}>
-        <div className={classNames(['flex-auto'])} />
+      <div className={classNames(['absolute', 'right-0', 'top-1/2'])}>
         <div className={classNames(['p-5', 'text-right'])}>
+          <Cross onClick={onClickHandler} />
+          <div className={classNames(['my-10'])} />
           <Menu
             className={classNames(['text-2xl', 'text-warmGray-900'])}
             onClick={onClickHandler}
           />
-          <div className={classNames(['my-10'])} />
-          <Cross onClick={onClickHandler} />
         </div>
       </div>
     </div>
   ) : (
     <div
       className={classNames([
-        'bottom-0',
         'fixed',
         'p-5',
         'right-0',
         'sm:hidden',
+        'top-1/2',
+        'z-20',
       ])}
     >
       <Hamburger onClick={onClickHandler} />
