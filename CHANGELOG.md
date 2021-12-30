@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/koendirkvanesterik/site/compare/v0.1.6...v0.1.7) (2021-12-30)
+
+### Bug Fixes
+
+- adjust app composition ([c78d7e1](https://github.com/koendirkvanesterik/site/commit/c78d7e1603b59dc7c02b64dfb5cb2f07707daf35))
+
 ### [0.1.6](https://github.com/koendirkvanesterik/site/compare/v0.1.5...v0.1.6) (2021-12-30)
 
 ### Features
