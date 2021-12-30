@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/koendirkvanesterik/site/compare/v0.1.5...v0.1.6) (2021-12-30)
+
+### Features
+
+- **components:** add overlay component ([5c43c19](https://github.com/koendirkvanesterik/site/commit/5c43c1994fd39238aee5d9426478b920f76a17f4))
+- **components:** add overlay component to app ([359310e](https://github.com/koendirkvanesterik/site/commit/359310e2085d33c2a407265388e6c7843e7e37a5))
+- **components:** add responsive behaviour to header ([f236da9](https://github.com/koendirkvanesterik/site/commit/f236da91865fef9e47bccbb10bb0d42bfc10cd27))
+- **components:** add responsive font size and padding ([1adacc3](https://github.com/koendirkvanesterik/site/commit/1adacc3773a893a6808aa9406608d694908cdbd5))
+- **components:** add unit test for container component ([4059287](https://github.com/koendirkvanesterik/site/commit/40592878f15f71485fecbd071dd5026ef1f8c20e))
+- **components:** remove label from footer menus ([8570e07](https://github.com/koendirkvanesterik/site/commit/8570e071c156ddefc746590a8ba713c959a273b3))
+- **components:** update footer menu ([b898076](https://github.com/koendirkvanesterik/site/commit/b8980760c3167ff952efe9caa9552a8353c23849))
+- **pages:** apply link to cover text ([f7b9ddf](https://github.com/koendirkvanesterik/site/commit/f7b9ddf28aaec944b2d110aa4da2297898acd1a6))
+- **styles:** adjust text and link color ([d106cfd](https://github.com/koendirkvanesterik/site/commit/d106cfde901b42e366ecfd9bb66e3c59626ea67c))
+- **styles:** update hover colors ([fc016fd](https://github.com/koendirkvanesterik/site/commit/fc016fdfb7bbb1238a59371e84657475fb2517ad))
+
+### Bug Fixes
+
+- rename menu type ([c729382](https://github.com/koendirkvanesterik/site/commit/c729382f120d27c9bc245bc48645626e606a2de7))
+
 ### [0.1.5](https://github.com/koendirkvanesterik/site/compare/v0.1.4...v0.1.5) (2021-12-10)
 
 ### Bug Fixes
