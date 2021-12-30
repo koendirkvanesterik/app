@@ -1,10 +1,13 @@
-import classNames from 'classnames'
 import { Link } from 'gatsby'
 import React from 'react'
 
 import { useMainMenuData } from './hooks/useMainMenuData'
+import { Props } from './types'
 
-export const MainMenu: React.FunctionComponent = () => {
+export const Menu: React.FunctionComponent<Props> = ({
+  className,
+  onClick,
+}) => {
   /**
    * Use custom hook to get main menu data
    */
@@ -17,10 +20,12 @@ export const MainMenu: React.FunctionComponent = () => {
    * Return main menu list based on populated links array condition
    */
   return links.length > 0 ? (
-    <ul className={classNames(['-mx-2'])}>
+    <ul>
       {links.map(({ href, label }) => (
-        <li className={classNames(['inline-block', 'px-2'])} key={href}>
-          <Link to={href}>{label}</Link>
+        <li key={href}>
+          <Link className={className} onClick={onClick} to={href}>
+            {label}
+          </Link>
         </li>
       ))}
     </ul>

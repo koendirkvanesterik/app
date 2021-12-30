@@ -14,8 +14,7 @@
   a {
     @apply fill-current;
     @apply no-underline;
-    @apply hover:underline;
     @apply text-emerald-400;
-    @apply hover:text-emerald-400;
+    @apply hover:text-white;
   }
 }

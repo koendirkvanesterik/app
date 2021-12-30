@@ -9,7 +9,7 @@ export type MenuLink = {
   label: string
 }
 
-export type Menu = {
+export type MenuData = {
   /**
    * Array of type MenuLink holding all menu links
    */

@@ -1,8 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { Menu } from 'components/types'
+import { MenuData } from 'components/types'
 
-export const useMainMenuData = (): Menu => {
+export const useMainMenuData = (): MenuData => {
   /**
    * Use static query hook to get all label data
    */

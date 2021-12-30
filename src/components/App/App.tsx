@@ -6,6 +6,7 @@ import { LabelContextProvider } from '@koendirkvanesterik/label'
 import { Container } from 'components/Container'
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
+import { Overlay } from 'components/Overlay'
 
 import { useLabelData } from './hooks/useLabelData'
 
@@ -26,6 +27,7 @@ export const App: React.FunctionComponent = ({ children }) => {
         </div>
         <Footer />
       </main>
+      <Overlay />
     </LabelContextProvider>
   )
 }
