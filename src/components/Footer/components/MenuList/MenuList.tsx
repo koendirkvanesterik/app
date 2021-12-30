@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { Menu } from 'components/types'
+import { Props } from './types'
 
-export const MenuList: React.FunctionComponent<Menu> = ({ links }) =>
+export const MenuList: React.FunctionComponent<Props> = ({ links }) =>
   links?.length > 0 ? (
     <ul>
       {links.map((link) => (
