@@ -1,7 +1,5 @@
-import React from 'react'
-
 import { render } from '@testing-library/react'
-
+import React from 'react'
 import { Header } from './Header'
 
 jest.mock('components/Menu', () => ({
@@ -21,4 +19,8 @@ it('should render as expected', () => {
   expect(getByRole('list')).toBeInTheDocument()
   expect(getByRole('listitem')).toBeInTheDocument()
   expect(getByRole('navigation')).toBeInTheDocument()
+})
+
+afterAll(() => {
+  jest.resetAllMocks()
 })
