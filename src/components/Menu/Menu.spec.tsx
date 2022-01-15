@@ -1,11 +1,9 @@
-import React from 'react'
-
 import { render } from '@testing-library/react'
-
-import * as useMainMenuData from './hooks/useMainMenuData'
+import React from 'react'
+import * as hooks from './hooks'
 import { Menu } from './Menu'
 
-jest.spyOn(useMainMenuData, 'useMainMenuData').mockImplementation(() => ({
+jest.spyOn(hooks, 'useMainMenuData').mockImplementationOnce(() => ({
   name: 'main',
   links: [
     {

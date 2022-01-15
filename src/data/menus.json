@@ -3,16 +3,16 @@
     "name": "main",
     "links": [
       {
+        "label": "Work",
+        "href": "/work/"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog/"
+      },
+      {
         "label": "About",
         "href": "/about/"
-      },
-      {
-        "label": "Projects",
-        "href": "/projects/"
-      },
-      {
-        "label": "Posts",
-        "href": "/posts/"
       }
     ]
   },

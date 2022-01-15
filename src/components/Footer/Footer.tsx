@@ -1,13 +1,10 @@
 import classNames from 'classnames'
-import React from 'react'
-
 import { Container } from 'components/Container'
-
+import React from 'react'
 import { Copyright } from './components/Copyright'
 import { MenuList } from './components/MenuList'
 import { Status } from './components/Status'
-import { useContactMenuData } from './hooks/useContactMenuData'
-import { useSocialMenuData } from './hooks/useSocialMenuData'
+import { useContactMenuData, useSocialMenuData } from './hooks'
 
 export const Footer: React.FunctionComponent = () => {
   /**
@@ -19,7 +16,7 @@ export const Footer: React.FunctionComponent = () => {
    * Return footer component with nested components
    */
   return (
-    <footer className={classNames(['pb-5', 'pt-28'])}>
+    <footer className={classNames(['pb-5', 'pt-48'])}>
       <Container>
         <div className={classNames(['gap-4', 'grid', 'md:grid-cols-2'])}>
           <div className={classNames(['gap-4', 'grid', 'lg:grid-cols-2'])}>

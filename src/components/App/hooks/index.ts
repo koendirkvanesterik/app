@@ -1,0 +1,1 @@
+export { useLabelData } from './useLabelData'

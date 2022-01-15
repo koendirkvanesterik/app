@@ -7,18 +7,6 @@ module.exports = {
         icon: `${__dirname}/static/images/icon.png`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-page-creator',
-      options: {
-        path: `${__dirname}/src/posts/`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-page-creator',
-      options: {
-        path: `${__dirname}/src/projects/`,
-      },
-    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
@@ -29,7 +17,6 @@ module.exports = {
       options: {
         defaultLayouts: {
           default: `${__dirname}/src/layouts/Page/Page.tsx`,
-          posts: `${__dirname}/src/layouts/Post/Post.tsx`,
         },
         gatsbyRemarkPlugins: [
           {
@@ -59,20 +46,6 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/src/pages/`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'posts',
-        path: `${__dirname}/src/posts/`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'projects',
-        path: `${__dirname}/src/projects/`,
       },
     },
     'gatsby-transformer-json',

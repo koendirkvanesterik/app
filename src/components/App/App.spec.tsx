@@ -1,11 +1,9 @@
-import React from 'react'
-
 import { render } from '@testing-library/react'
-
+import React from 'react'
 import { App } from './App'
-import * as useLabelData from './hooks/useLabelData'
+import * as hooks from './hooks'
 
-jest.spyOn(useLabelData, 'useLabelData').mockImplementation(() => ({}))
+jest.spyOn(hooks, 'useLabelData').mockImplementationOnce(() => ({}))
 jest.mock('components/Header', () => ({
   Header: () => <header />,
 }))
