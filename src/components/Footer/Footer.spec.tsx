@@ -1,12 +1,9 @@
-import React from 'react'
-
 import { render } from '@testing-library/react'
-
+import React from 'react'
 import { Footer } from './Footer'
-import * as useContactMenuData from './hooks/useContactMenuData'
-import * as useSocialMenuData from './hooks/useSocialMenuData'
+import * as hooks from './hooks'
 
-jest.spyOn(useContactMenuData, 'useContactMenuData').mockImplementation(() => ({
+jest.spyOn(hooks, 'useContactMenuData').mockImplementationOnce(() => ({
   name: 'foo',
   links: [
     {
@@ -16,7 +13,7 @@ jest.spyOn(useContactMenuData, 'useContactMenuData').mockImplementation(() => ({
   ],
 }))
 
-jest.spyOn(useSocialMenuData, 'useSocialMenuData').mockImplementation(() => ({
+jest.spyOn(hooks, 'useSocialMenuData').mockImplementationOnce(() => ({
   name: 'bar',
   links: [
     {
@@ -34,8 +31,4 @@ it('should render as expected', () => {
   expect(getAllByRole('link')).toHaveLength(2)
   expect(getAllByRole('list')).toHaveLength(2)
   expect(getAllByRole('listitem')).toHaveLength(2)
-})
-
-afterAll(() => {
-  jest.resetAllMocks()
 })
