@@ -1,7 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-
-import { useMainMenuData } from './hooks/useMainMenuData'
+import { useMainMenuData } from './hooks'
 import { Props } from './types'
 
 export const Menu: React.FunctionComponent<Props> = ({
