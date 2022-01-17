@@ -1,8 +1,7 @@
+import { useFrame } from '@react-three/fiber'
 import React from 'react'
 import { emerald } from 'tailwindcss/colors'
 import { PlaneGeometry } from 'three'
-
-import { useFrame } from '@react-three/fiber'
 
 export const Plane: React.FunctionComponent = () => {
   /**
