@@ -10,8 +10,8 @@ jest.mock('components/Header', () => ({
 jest.mock('components/Footer', () => ({
   Footer: () => <footer />,
 }))
-jest.mock('components/Overlay', () => ({
-  Overlay: () => <div />,
+jest.mock('components/Drawer', () => ({
+  Drawer: () => <div />,
 }))
 
 it('should render as expected', () => {
