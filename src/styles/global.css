@@ -4,16 +4,17 @@
 
 @layer base {
   body {
-    @apply bg-warmGray-900;
-    @apply fill-current;
+    @apply bg-stone-900;
+    @apply fill-emerald-600;
     @apply leading-relaxed;
     @apply text-base;
     @apply text-emerald-600;
   }
 
   a {
-    @apply fill-current;
     @apply no-underline;
+    @apply fill-emerald-400;
+    @apply hover:fill-white;
     @apply text-emerald-400;
     @apply hover:text-white;
   }

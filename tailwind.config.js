@@ -1,13 +1,12 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: {
-    content: ['./src/**/*.{js,jsx,md,mdx,ts,tsx}'],
-  },
+  content: ['./src/**/*.{js,jsx,md,mdx,ts,tsx}'],
+  plugins: [],
   theme: {
     colors: {
       emerald: colors.emerald,
-      warmGray: colors.warmGray,
+      stone: colors.stone,
       white: colors.white,
     },
     fontFamily: {
@@ -15,5 +14,4 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
 }
