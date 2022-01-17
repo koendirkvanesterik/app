@@ -1,9 +1,7 @@
-import React from 'react'
-
 import { render } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-
-import { Overlay } from './Overlay'
+import React from 'react'
+import { Drawer } from './Drawer'
 
 jest.mock('components/Menu', () => ({
   Menu: () => (
@@ -16,13 +14,13 @@ jest.mock('components/Menu', () => ({
 }))
 
 it('should render as expected', () => {
-  const { getByRole } = render(<Overlay />)
+  const { getByRole } = render(<Drawer />)
   expect(getByRole('button')).toBeInTheDocument()
 })
 
 it('should set state to active when clicked', () => {
   const regex = /foo/i
-  const { getByRole, getByText, queryByText } = render(<Overlay />)
+  const { getByRole, getByText, queryByText } = render(<Drawer />)
   const button = getByRole('button')
 
   expect(queryByText(regex)).not.toBeInTheDocument()
