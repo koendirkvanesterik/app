@@ -1,13 +1,10 @@
-import classNames from 'classnames'
-import React from 'react'
-
 import { LabelContextProvider } from '@koendirkvanesterik/label'
-
+import classNames from 'classnames'
 import { Container } from 'components/Container'
+import { Drawer } from 'components/Drawer'
 import { Footer } from 'components/Footer'
 import { Header } from 'components/Header'
-import { Overlay } from 'components/Overlay'
-
+import React from 'react'
 import { useLabelData } from './hooks/useLabelData'
 
 export const App: React.FunctionComponent = ({ children }) => {
@@ -26,7 +23,7 @@ export const App: React.FunctionComponent = ({ children }) => {
           <Container>{children}</Container>
         </div>
         <Footer />
-        <Overlay />
+        <Drawer />
       </main>
     </LabelContextProvider>
   )

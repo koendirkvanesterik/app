@@ -1,8 +1,7 @@
-import React from 'react'
-import { warmGray } from 'tailwindcss/colors'
-import { MathUtils } from 'three'
-
 import { useThree } from '@react-three/fiber'
+import React from 'react'
+import { stone } from 'tailwindcss/colors'
+import { MathUtils } from 'three'
 
 export const Camera: React.FunctionComponent = () => {
   /**
@@ -20,7 +19,7 @@ export const Camera: React.FunctionComponent = () => {
    */
   return (
     <>
-      <fog attach="fog" args={[warmGray[900], 0, 40]} />
+      <fog attach="fog" args={[stone[900], 0, 40]} />
       <ambientLight />
     </>
   )

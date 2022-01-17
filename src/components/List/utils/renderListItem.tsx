@@ -21,7 +21,7 @@ export const renderListItem = ({
         <div
           className={classNames([
             'border-b',
-            'border-warmGray-800',
+            'border-stone-800',
             'grid',
             'hover:border-white',
             'md:gap-4',

@@ -1,13 +1,12 @@
 import classNames from 'classnames'
 import React from 'react'
-
-import { Scene } from './components/Scene'
+import { Scene } from './components'
 
 export const Cover: React.FunctionComponent = ({ children }) => (
   <div
     className={classNames([
       'border',
-      'border-warmGray-800',
+      'border-stone-800',
       'h-96',
       'relative',
       'rounded-lg',

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render as expected 1`] = `
+<div>
+  <div
+    class="border border-stone-800 h-96 relative rounded-lg"
+  >
+    <div
+      class="absolute h-full w-full"
+    >
+      <div />
+    </div>
+    <div
+      class="flex h-full items-end relative z-10"
+    />
+  </div>
+</div>
+`;

@@ -1,15 +1,17 @@
 import classNames from 'classnames'
 import React from 'react'
 
-import { Props } from './types'
-
-export const Cross: React.FunctionComponent<Props> = ({ onClick }) => (
+export const Cross = ({
+  onClick,
+}: {
+  onClick: React.MouseEventHandler
+}): React.ReactElement => (
   <button onClick={onClick} type="button">
     <svg
       className={classNames([
-        'fill-current',
-        'text-warmGray-900',
-        'hover:text-white',
+        'fill-stone-900',
+        'text-stone-900',
+        'hover:fill-white',
       ])}
       height="24px"
       viewBox="0 0 24 24"

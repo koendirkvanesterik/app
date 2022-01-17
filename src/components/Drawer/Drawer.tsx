@@ -1,12 +1,9 @@
 import classNames from 'classnames'
-import React from 'react'
-
 import { Menu } from 'components/Menu'
+import React from 'react'
+import { Cross, Hamburger } from './components'
 
-import { Cross } from './components/Cross'
-import { Hamburger } from './components/Hamburger'
-
-export const Overlay: React.FunctionComponent = () => {
+export const Drawer: React.FunctionComponent = () => {
   /**
    * Use local state to keep track of overlay activity
    */
@@ -45,7 +42,7 @@ export const Overlay: React.FunctionComponent = () => {
           <Cross onClick={onClickHandler} />
           <div className={classNames(['my-10'])} />
           <Menu
-            className={classNames(['text-2xl', 'text-warmGray-900'])}
+            className={classNames(['text-2xl', 'text-stone-900'])}
             onClick={onClickHandler}
           />
         </div>
