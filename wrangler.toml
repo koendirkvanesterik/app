@@ -1,0 +1,8 @@
+account_id = "c7f4340f6cd91da92055fe7a11afa228"
+compatibility_date = "2022-03-12"
+name = "site"
+route = "*.vanesterik.dev/*"
+site = { bucket = "./public", entry-point = "workers-site" }
+type = "webpack"
+workers_dev = false
+zone_id = "c7aca7984fac6a01db65cad10eae589b"
