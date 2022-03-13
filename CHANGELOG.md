@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/koendirkvanesterik/site/compare/v0.1.7...v0.1.8) (2022-03-13)
+
+### Features
+
+- **component:** restructure menu component ([09694c8](https://github.com/koendirkvanesterik/site/commit/09694c828d1a2735de3b7b066f28333ba28623b0))
+- **components:** apply z index to hamburger ([214f2c0](https://github.com/koendirkvanesterik/site/commit/214f2c05c94ec6eb951c1e8e0dc52095e8abf235))
+- **components:** finetune overlay composition ([0f9db7e](https://github.com/koendirkvanesterik/site/commit/0f9db7ecc6c0ce55d28a2732b9cb1b3d26c1b108))
+- **components:** implement overlayer component ([851a6f7](https://github.com/koendirkvanesterik/site/commit/851a6f7c50440caa02af885956de735559c4e43c))
+- **components:** introduce context list components ([4ea2c0d](https://github.com/koendirkvanesterik/site/commit/4ea2c0d8794ff0a43de62dcafc7055fe339008a8))
+- **components:** introduce list component ([b35c4b2](https://github.com/koendirkvanesterik/site/commit/b35c4b2efac8a3d1c7d184cae191aa1ab0a584d9))
+- **components:** introduce spacer component ([a71d3bf](https://github.com/koendirkvanesterik/site/commit/a71d3bfd08345b5e34884e5c01fd3a80d6974614))
+- **components:** rename overlayer to drawer component ([322cd4a](https://github.com/koendirkvanesterik/site/commit/322cd4ad7c057df635366eaaf02ac2e0347de422))
+- **components:** restructure app component ([9990b42](https://github.com/koendirkvanesterik/site/commit/9990b42179d79c0942f0ea5d9442e6109db45a1f))
+- **components:** restructure footer component ([19c9731](https://github.com/koendirkvanesterik/site/commit/19c9731b4f1cea3fe096514964da18ff8bf4c73f))
+- **components:** rewrite menu component test ([0aff0eb](https://github.com/koendirkvanesterik/site/commit/0aff0eb30fa27aba3674be026f28740b2e6015dc))
+- **components:** simplify cover component ([2f36869](https://github.com/koendirkvanesterik/site/commit/2f368691f9a1022dcc61ce1d339f852b44b05749))
+- **data:** rename menu structure ([d76eb63](https://github.com/koendirkvanesterik/site/commit/d76eb63ed97aee632845cefaf5c7733295c8e4a0))
+- **pages:** add page layout and content ([2147462](https://github.com/koendirkvanesterik/site/commit/214746248d15988cb71bd5c2b6323f86b3b62816))
+- **project:** add slashsandwich package ([1171226](https://github.com/koendirkvanesterik/site/commit/1171226c108b300d587f7ceb7970d0a720be2561))
+- **project:** implement cloudflare deployment process ([9d0be6d](https://github.com/koendirkvanesterik/site/commit/9d0be6dc0e1f1207055f4b81f81ea8414779cd97))
+- **project:** update breaking tailwindcss changes ([2e7eeb5](https://github.com/koendirkvanesterik/site/commit/2e7eeb59bd73a26e0f013fdde65d035e38cb5349))
+- **project:** update readme file ([b01b46c](https://github.com/koendirkvanesterik/site/commit/b01b46c23a31d55aabb9bac6c89eb3203bc383a3))
+
 ### [0.1.7](https://github.com/koendirkvanesterik/site/compare/v0.1.6...v0.1.7) (2021-12-30)
 
 ### Bug Fixes
