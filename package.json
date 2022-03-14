@@ -122,7 +122,7 @@
     "lint": "concurrently \"npm run lint:typescript\" \"npm run lint:styles\"",
     "lint:styles": "stylelint --config '.stylelintrc.json' src/**/*.css",
     "lint:typescript": "eslint --cache --ext .ts,.tsx src",
-    "release": "git checkout main && git checkout -b release/$(date +%Y-%m-%d) && standard-version --releaseCommitMessageFormat \"chore(release): {{currentTag}}\"",
+    "release": "git checkout main && standard-version --releaseCommitMessageFormat \"chore(release): {{currentTag}}\" && git push --follow-tags origin main",
     "serve": "gatsby clean && gatsby build && gatsby serve",
     "start": "gatsby develop",
     "test": "jest",
